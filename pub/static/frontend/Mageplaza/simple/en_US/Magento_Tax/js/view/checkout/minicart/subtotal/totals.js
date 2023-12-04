@@ -1,0 +1,1 @@
+/home/aswathyd/Documents/projects/magento2/vendor/magento/module-tax/view/frontend/web/js/view/checkout/minicart/subtotal/totals.js
