@@ -1,4 +1,5 @@
 <?php return array (
+  'cblock\\cmsblock\\controller\\index\\welcome' => 'CBlock\\CMSBlock\\Controller\\Index\\Welcome',
   'magento\\adminadobeims\\controller\\adminhtml\\oauth\\imscallback' => 'Magento\\AdminAdobeIms\\Controller\\Adminhtml\\OAuth\\ImsCallback',
   'magento\\adminadobeims\\controller\\adminhtml\\oauth\\imsreauthcallback' => 'Magento\\AdminAdobeIms\\Controller\\Adminhtml\\OAuth\\ImsReauthCallback',
   'magento\\adminanalytics\\controller\\adminhtml\\config\\disableadminusage' => 'Magento\\AdminAnalytics\\Controller\\Adminhtml\\Config\\DisableAdminUsage',
@@ -1292,4 +1293,5 @@
   'paypal\\braintree\\controller\\paypal\\saveshippingmethod' => 'PayPal\\Braintree\\Controller\\Paypal\\SaveShippingMethod',
   'paypal\\braintree\\controller\\webhook\\fraudprotection' => 'PayPal\\Braintree\\Controller\\Webhook\\FraudProtection',
   'storeinformation\\module\\controller\\index\\index' => 'StoreInformation\\Module\\Controller\\Index\\Index',
+  'testmagento\\test\\controller\\index\\testmagento' => 'Testmagento\\Test\\Controller\\Index\\testmagento',
 );

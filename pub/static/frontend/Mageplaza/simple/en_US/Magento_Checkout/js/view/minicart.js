@@ -1,1 +1,0 @@
-/home/aswathyd/Documents/projects/magento2/vendor/magento/module-checkout/view/frontend/web/js/view/minicart.js

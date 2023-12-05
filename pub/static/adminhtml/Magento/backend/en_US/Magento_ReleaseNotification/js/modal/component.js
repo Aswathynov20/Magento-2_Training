@@ -1,1 +1,0 @@
-/home/aswathyd/Documents/projects/magento2/vendor/magento/module-release-notification/view/adminhtml/web/js/modal/component.js
