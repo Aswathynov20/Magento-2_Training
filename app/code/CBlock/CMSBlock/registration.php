@@ -4,4 +4,4 @@ ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
     'CBlock_CMSBlock',
     __DIR__
-);
+); 

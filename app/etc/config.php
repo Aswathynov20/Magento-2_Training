@@ -350,7 +350,9 @@ return [
         'CMS_CMSBlock' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
+        'StoreInformation_CategoryCreate' => 1,
         'StoreInformation_Module' => 1,
+        'StoreInformation_ProductCreate' => 1,
         'Temando_ShippingRemover' => 1,
         'Testmagento_Test' => 1
     ]

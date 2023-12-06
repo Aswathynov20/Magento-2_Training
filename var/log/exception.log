@@ -335,3 +335,39 @@ Stack trace:
 #35 /home/aswathyd/Documents/projects/magento2/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
 #36 {main} {"report_id":"bc5280410806fa4e736a33eb82d15dcb2dabb8692d55974b932f7556b282c0a3","exception":"[object] (Exception(code: 0): Warning: DOMDocument::loadXML(): Extra content at the end of the document in Entity, line: 12 in /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Config/Theme.php on line 76 at /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/App/ErrorHandler.php:62)"} []
 [2023-12-05T06:03:11.856291+00:00] main.WARNING: Failed to retrieve the release notification content. {"exception":"[object] (Exception(code: 0): Operation timed out after 5000 milliseconds with 0 out of 0 bytes received at /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/HTTP/Client/Curl.php:427)"} []
+[2023-12-05T10:32:37.645578+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /home/aswathyd/Documents/projects/magento2/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-12-05T10:32:37.733594+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /home/aswathyd/Documents/projects/magento2/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-12-05T10:43:22.849465+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /home/aswathyd/Documents/projects/magento2/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
+[2023-12-05T10:47:21.857126+00:00] main.CRITICAL: ReflectionException: Class "Magento\Framework\App\Http\Interceptor" does not exist in /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34
+Stack trace:
+#0 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php(34): ReflectionClass->__construct()
+#1 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Definition/Runtime.php(54): Magento\Framework\Code\Reader\ClassReader->getConstructor()
+#2 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/Factory/Dynamic/Developer.php(48): Magento\Framework\ObjectManager\Definition\Runtime->getParameters()
+#3 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/ObjectManager/ObjectManager.php(56): Magento\Framework\ObjectManager\Factory\Dynamic\Developer->create()
+#4 /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/App/Bootstrap.php(238): Magento\Framework\ObjectManager\ObjectManager->create()
+#5 /home/aswathyd/Documents/projects/magento2/pub/index.php(29): Magento\Framework\App\Bootstrap->createApplication()
+#6 {main} {"exception":"[object] (ReflectionException(code: -1): Class \"Magento\\Framework\\App\\Http\\Interceptor\" does not exist at /home/aswathyd/Documents/projects/magento2/vendor/magento/framework/Code/Reader/ClassReader.php:34)"} []
