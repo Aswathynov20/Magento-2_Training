@@ -3435,6 +3435,14 @@
         'instance' => '\\PayPal\\Braintree\\Plugin\\DeleteStoredPaymentPlugin',
       ),
     ),
+    'Magento\\Cms\\Controller\\Page\\View' => 
+    array (
+      'RestrictPage_CpageRestrict_cms_page_access' => 
+      array (
+        'sortOrder' => 1,
+        'instance' => 'RestrictPage\\CpageRestrict\\Plugin\\CmsPageAccess',
+      ),
+    ),
   ),
   1 => 
   array (
@@ -9263,6 +9271,59 @@
         'instance' => 'PayPal\\Braintree\\Plugin\\DeleteStoredPaymentPlugin',
       ),
     ),
+    'Magento\\Cms\\Controller\\Page\\View' => 
+    array (
+      'storeCheck' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Store\\App\\Action\\Plugin\\StoreCheck',
+      ),
+      'designLoader' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Theme\\Plugin\\LoadDesignPlugin',
+      ),
+      'customerNotification' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Customer\\Model\\Plugin\\CustomerNotification',
+      ),
+      'tax-app-action-dispatchController-context-plugin' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Tax\\Model\\App\\Action\\ContextPlugin',
+      ),
+      'weee-app-action-dispatchController-context-plugin' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Weee\\Model\\App\\Action\\ContextPlugin',
+      ),
+      'invalidate_expired_session_plugin' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\LoginAsCustomerFrontendUi\\Plugin\\InvalidateExpiredSessionPlugin',
+      ),
+      'catalog_app_action_dispatch_controller_context_plugin' => 
+      array (
+        'sortOrder' => 0,
+        'instance' => 'Magento\\Catalog\\Plugin\\Framework\\App\\Action\\ContextPlugin',
+      ),
+      'RestrictPage_CpageRestrict_cms_page_access' => 
+      array (
+        'sortOrder' => 1,
+        'instance' => 'RestrictPage\\CpageRestrict\\Plugin\\CmsPageAccess',
+      ),
+      'customer-app-action-executeController-context-plugin' => 
+      array (
+        'sortOrder' => 10,
+        'instance' => 'Magento\\Customer\\Model\\App\\Action\\ContextPlugin',
+      ),
+      'contextPlugin' => 
+      array (
+        'sortOrder' => 10,
+        'instance' => 'Magento\\Store\\App\\Action\\Plugin\\Context',
+      ),
+    ),
   ),
   2 => 
   array (
@@ -13404,6 +13465,28 @@
       1 => 
       array (
         0 => 'braintreeDeleteStoredPaymentPlugin',
+      ),
+    ),
+    'Magento\\Cms\\Controller\\Page\\View_execute___self' => 
+    array (
+      1 => 
+      array (
+        0 => 'storeCheck',
+        1 => 'designLoader',
+        2 => 'customerNotification',
+        3 => 'tax-app-action-dispatchController-context-plugin',
+        4 => 'weee-app-action-dispatchController-context-plugin',
+        5 => 'invalidate_expired_session_plugin',
+        6 => 'RestrictPage_CpageRestrict_cms_page_access',
+        7 => 'customer-app-action-executeController-context-plugin',
+      ),
+    ),
+    'Magento\\Cms\\Controller\\Page\\View_dispatch___self' => 
+    array (
+      1 => 
+      array (
+        0 => 'catalog_app_action_dispatch_controller_context_plugin',
+        1 => 'contextPlugin',
       ),
     ),
   ),

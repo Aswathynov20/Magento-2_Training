@@ -18973,6 +18973,7 @@
   'RecursiveIterator' => false,
   'RefreshLock' => false,
   'RequestValidator' => false,
+  'RestrictPage\\CpageRestrict\\Plugin\\CmsPageAccess' => false,
   'RuntimeException' => false,
   'SalesCreditmemoIndexGridAsyncInsert' => false,
   'SalesCreditmemoIndexGridAsyncInsertCron' => false,
