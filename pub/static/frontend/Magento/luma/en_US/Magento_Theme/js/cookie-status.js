@@ -1,0 +1,1 @@
+/home/aswathyd/Documents/projects/magento2/vendor/magento/module-theme/view/frontend/web/js/cookie-status.js

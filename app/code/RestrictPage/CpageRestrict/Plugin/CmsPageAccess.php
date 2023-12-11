@@ -34,7 +34,7 @@ class CmsPageAccess
         $this->messageManager = $messageManager;
     }
 
-    public function beforeExecute(CmsPageView $subject)
+    public function aroundExecute(CmsPageView $subject, callable $proceed)
     {
         // Get CMS page identifier (page_id) from the request
         $pageId = $subject->getRequest()->getParam('page_id');
@@ -45,10 +45,10 @@ class CmsPageAccess
             $resultRedirect = $this->resultRedirectFactory->create();
             $resultRedirect->setPath('customer/account/login');
             $this->messageManager->addErrorMessage(__('You must be logged in to access this page.'));
-            return [$resultRedirect];
+            return $resultRedirect;
         }
 
         // Allow the original execute method to proceed
-        return null;
+        return $proceed();
     }
 }
