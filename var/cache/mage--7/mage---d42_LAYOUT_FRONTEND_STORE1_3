@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1702296332;s:6:"expire";i:1733832332;s:4:"tags";s:37:"d42_LAYOUT_GENERAL_CACHE_TAG,d42_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1702453645;s:6:"expire";i:1733989645;s:4:"tags";s:37:"d42_LAYOUT_GENERAL_CACHE_TAG,d42_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -6928,6 +6928,16 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1702296332;s:6:"expire";i:1733832332;s:4:"t
 </handle><handle id="cms_index_index"><body>
    <referenceContainer name="content">
       <block class="CMS\CMSBlock\Block\Cblock" name="custom_block" template="CMS_CMSBlock::custom_block.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="default"><body>
+   <referenceContainer name="footer">
+      <block class="LinkFooter\Footer\Block\Link" name="LinkFooter.Footer.link" template="LinkFooter_Footer::link.phtml"/>
+   </referenceContainer>
+</body>
+</handle><handle id="module_index_index" layout="1column"><body>
+   <referenceContainer name="content">
+      <block class="Magento\Framework\View\Element\Template" template="LinkFooter_Footer::image.phtml"/>
    </referenceContainer>
 </body>
 </handle><handle id="braintree_googlepay_review" layout="1column"><head>
