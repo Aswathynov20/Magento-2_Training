@@ -1,0 +1,1 @@
+/home/aswathyd/Documents/projects/magento2/vendor/magento/module-catalog/view/adminhtml/web/catalog/product.js

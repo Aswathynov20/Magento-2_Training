@@ -348,6 +348,7 @@ return [
         'Magento_WishlistSampleData' => 1,
         'CBlock_CMSBlock' => 1,
         'CMS_CMSBlock' => 1,
+        'Crontab_Croncheck' => 1,
         'ErrorLog_ErrorLog404' => 1,
         'EventsandObserver_Observer' => 1,
         'LinkFooter_Footer' => 1,

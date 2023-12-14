@@ -1,0 +1,1 @@
+/home/aswathyd/Documents/projects/magento2/vendor/magento/module-asynchronous-operations/view/adminhtml/web/js/insert-form.js
